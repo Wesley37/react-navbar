@@ -1,12 +1,11 @@
-import './App.css'
-import NavBar from './components/NavBar'
-import { Routes, Route } from 'react-router-dom' 
-import Home from './components/pages/Home'
-import About from './components/pages/About'
-import Contact from './components/pages/Contact'
+import "./App.css";
+import NavBar from "./components/NavBar";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
 
 function App() {
-
   return (
     <>
       <section id="center">
@@ -20,10 +19,8 @@ function App() {
           </Routes>
         </div>
       </section>
-
-      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
